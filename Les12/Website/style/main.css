@@ -1,89 +1,114 @@
-header{
+header {
     background-color: aqua;
     height: 50px;
 }
-footer{
+
+footer {
     background-color: red;
     height: 30px;
 }
 
-#celRij1Col1{
+#celRij1Col1 {
     background-color: darkorange;
 }
-#tekstCelRij1Col1{
+
+#tekstCelRij1Col1 {
     background-color: rgb(255, 206, 146);
 }
 
-#celRij1Col2{
+#celRij1Col2 {
+    /* afbeelding */
     background-color: rgb(0, 77, 51);
 }
-#celRij1Col3{
+
+#celRij1Col3 {
     background-color: #7a0000;
 }
-#tekstCelRij1Col3{
+
+#tekstCelRij1Col3 {
     background-color: rgb(255, 0, 0);
 }
 
-#celRij1Col4{
+#celRij1Col4 {
+    /* afbeelding */
     background-color: #565f00;
 }
 
-#celRij2Col1{
+#celRij2Col1 {
     background-color: #4000a0;
 }
-#tekstCelRij2Col1{
+
+#tekstCelRij2Col1 {
     background-color: #6e71ff;
 }
 
-#celRij2Col2{
-    background-color: #99FF66; 
+#celRij2Col2 {
+    /* afbeelding */
+    background-color: #99FF66;
 }
-#celRij2Col3{
+
+#celRij2Col3 {
     background-color: #9900FF;
 }
-#tekstCelRij2Col3{
+
+#tekstCelRij2Col3 {
     background-color: #de8bff;
 }
-#celRij2Col4{
+
+#celRij2Col4 {
+    /* afbeelding */
     background-color: #99FF33;
 }
 
-#celRij3Col1{
+#celRij3Col1 {
     background-color: #004141;
 }
-#tekstCelRij3Col1{
+
+#tekstCelRij3Col1 {
     background-color: #00ffff;
 }
 
-#celRij3Col2{
+#celRij3Col2 {
+    /* afbeelding */
     background-color: #3333FF;
 }
-#celRij3Col3{
+
+#celRij3Col3 {
     background-color: darkcyan;
 }
-#tekstCelRij3Col3{
+
+#tekstCelRij3Col3 {
     background-color: #99FFFF;
 }
-#celRij3Col4{
+
+#celRij3Col4 {
+    /* afbeelding */
     background-color: #333366;
 }
 
-#celRij4Col1{
+#celRij4Col1 {
     background-color: darkgoldenrod;
 }
-#tekstCelRij4Col1{
+
+#tekstCelRij4Col1 {
     background-color: rgb(255, 206, 84);
 }
-#celRij4Col2{
+
+#celRij4Col2 {
+    /* afbeelding */
     background-color: #FFFF00;
 }
-#celRij4Col3{
+
+#celRij4Col3 {
     background-color: rgb(124, 2, 67);
 }
-#tekstCelRij4Col3{
+
+#tekstCelRij4Col3 {
     background-color: deeppink;
 }
-#celRij4Col4{
+
+#celRij4Col4 {
+    /* afbeelding */
     background-color: #FFCC00;
 }
 
@@ -91,7 +116,7 @@ footer{
 
 
 
-img{
+img {
     width: 100px;
     height: 100px;
 }
