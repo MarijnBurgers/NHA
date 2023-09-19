@@ -56,21 +56,33 @@
         width: 100%;
     }
 }
+body
+{
+    
+    font-family: 'Roboto', sans-serif;
+}
 
+.page-container{
+    position: relative;
+}
 header {
     background-repeat: no-repeat;
+    background-position: center;
     background-image: url(../afbeeldingen/schimmert-banner.jpg);
     height: 120px;
     padding: 15px;
     text-align: center;
-    text-shadow: 3px 3px #558ABB;
+    text-shadow: 3px 3px #96e6ff;
 }
 footer{
+    clear: both;
+    position: relative;
     height: 100px;
-    width: auto;
+    width: 100%;
+    margin-top: -210px;
     margin: 10px;
     text-align: center;
-    text-shadow: 1.5px 1.5px #558ABB;
+    
 }
 
 menu ul {
@@ -92,8 +104,9 @@ menu li:hover {
 
 #kolom2{
     background-color: #A6DBFD;
+    
 }
 img{
-    display: block;
+    display: inline;
     float: right;
 }
