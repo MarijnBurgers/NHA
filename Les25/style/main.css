@@ -1,0 +1,48 @@
+
+body{
+    background-color: antiquewhite;
+    height: 100vh - 18px;
+}
+.container{
+    height: 70vh;
+}
+.col{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: 1px solid black;
+}
+p, header{
+    text-align: center;
+    
+}
+p{
+    font-size: 48px;
+}
+p#uitleg{
+    font-size: large;
+    
+}
+p#score{
+    font-size: x-large;
+    width: 20%;
+    margin: auto;
+    
+}
+button{
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+}
+
+#footer{
+    font-size: medium;
+
+}
+.row{
+    clear:both;
+    width: 610px;
+    margin: auto;
+}
