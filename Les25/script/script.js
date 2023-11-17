@@ -11,9 +11,7 @@ $(document).ready(function(){
    $(document).keydown(function(e){                                 //keydown gebruikt omdat keypressed geen pijltjestoetsen ondersteund (testbrowser: firefox)
         arrowKeyPressed(e);
    });
-   $(document).on('swiperight', function(){
-        window.alert("test swipe");
-   });
+
    $('#btRestart').click(function()
    {
         start();
