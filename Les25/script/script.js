@@ -72,7 +72,7 @@ function updateEmptySquaresArray(){
 
 //initialiseren/resetten van het spel
 function start() {
-    
+    totalScore = 0;
         for (let y = 0; y < 4; y++) {
             
             array1[y] = -1;
