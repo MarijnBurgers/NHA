@@ -7,6 +7,7 @@ var array2 = [];
 var array3 = [];
 var array4 = [];
 
+winMessageSent = false;
 $(document).ready(function(){
    $(document).keydown(function(e){                                 //keydown gebruikt omdat keypressed geen pijltjestoetsen ondersteund (testbrowser: firefox)
         arrowKeyPressed(e);
@@ -72,6 +73,7 @@ function updateEmptySquaresArray(){
 
 //initialiseren/resetten van het spel
 function start() {
+    winMessageSent = false;
     totalScore = 0;
         for (let y = 0; y < 4; y++) {
             
@@ -231,10 +233,11 @@ function checkWinLoss(){
     //check win
     for (let index = 0; index < array1.length; index++) {
         
-        if(array1[index] == 2048 || array2[index] == 2048|| array3[index] == 2048|| array4[index] == 2048)
+        if((array1[index] == 2048 || array2[index] == 2048|| array3[index] == 2048|| array4[index] == 2048) && winMessageSent == false)
         {
             sleep(500).then(() => {
             window.alert("Gefeliciteerd! U heeft gewonnen.");
+            winMessageSent = true;
         });
             return; // eindig methode
         }
