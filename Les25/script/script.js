@@ -217,9 +217,13 @@ function changeBackground(background, value){
             $(background).parent().css("background-color", "brown");
             $(background).css("visibility", "visible");
             break;
-        default:
+        case -1:
             $(background).parent().css("background-color", "Gray");
             $(background).css("visibility", "hidden");
+            break;
+        default:
+            $(background).parent().css("background-color", "blue");
+            $(background).css("visibility", "visible");
     }
 }
 
